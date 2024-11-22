@@ -29,9 +29,9 @@ body {
     flex-basis: calc(33% - 6rem);
   }
   
-  .cartao__conteudo h3 {
+  .cartao .conteudo h3 {
     background-color: rgb(26, 17, 15);
-    text-align: left; 
+    text-align: left;
     padding: 0.5rem;
     position: absolute;
     margin: 0.6rem; 
@@ -45,6 +45,12 @@ body {
     position: absolute;
     height: 100%;
     width: 100%;
+  }
+  
+  /* Estilização específica para grifar perguntas */
+  .cartao_conteudo_pergunta {
+    font-weight: bold;           /* Texto em negrito */
+    text-decoration: underline;  /* Adiciona sublinhado */
   }
   
   .cartao__conteudo p {
